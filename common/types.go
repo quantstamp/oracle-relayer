@@ -4,10 +4,10 @@ import "time"
 
 const (
 	ObserverMaxBlockNumber = 10000
-	ObserverPruneInterval  = 10 * time.Second
-	ObserverAlertInterval  = 5 * time.Second
+	ObserverPruneInterval  = 1 * time.Second
+	ObserverAlertInterval  = 1 * time.Second
 
-	PackageDelayAlertInterval = 5 * time.Second
+	PackageDelayAlertInterval = 1 * time.Second
 )
 
 const (
